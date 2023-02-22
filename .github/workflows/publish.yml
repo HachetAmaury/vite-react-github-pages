@@ -7,9 +7,9 @@ name: Build and Deploy
 # In this case commits and pull-requests on master-branch
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 # What jobs will run in your workflow -> build_and_deploy
 # Jobs can run in parallel or sequentially
