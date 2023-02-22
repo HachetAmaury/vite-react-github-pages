@@ -28,3 +28,7 @@ jobs:
       run: |
         npm install
         npm run deploy
+      env:
+        # Create and store API_TOKEN_GITHUB in repository 
+        # secrets -> explained later in this article
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
